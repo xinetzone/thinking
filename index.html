@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>xyzstyle &#8212; xyzstyle 0.0.1rc1 文档</title>
+    <title>思维 &#8212; thinking 0.0.1rc1 文档</title>
     
     <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 <link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -25,6 +25,8 @@
     
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/default.css" />
     
@@ -36,11 +38,16 @@
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
     <script src="_static/translations.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <link rel="shortcut icon" href="_static/favicon.jpg"/>
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
-    <link rel="next" title="Sphinx 配置" href="config.html" />
+    <link rel="next" title="优质博客" href="blog.html" />
     <link rel="stylesheet" href="_static/css/default.css"/>
     <link rel="stylesheet" href="_static/css/custom.css"/>
 
@@ -75,8 +82,14 @@
       <div class="navbar-center-item">
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 nav-item">
- <a class="reference internal nav-link" href="config.html">
-  Sphinx 配置
+ <a class="reference internal nav-link" href="blog.html">
+  优质博客
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="other.html">
+  其他
  </a>
 </li>
 
@@ -90,6 +103,10 @@
       
       <div class="navbar-end-item">
         <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/xinetzone/thinking" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
       </ul>
       </div>
       
@@ -133,7 +150,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id1">
+  <a class="reference internal nav-link" href="#id2">
    目录和索引
   </a>
  </li>
@@ -144,6 +161,13 @@
               
               <div class="toc-item">
                 
+
+<div class="tocsection editthispage">
+    <a href="https://github.com/xinetzone/thinking/edit/main/docs/index.md">
+        <i class="fas fa-pencil-alt"></i> Edit this page
+    </a>
+</div>
+
               </div>
               
             
@@ -158,20 +182,17 @@
               
               <div>
                 
-  <section id="xyzstyle">
-<h1>xyzstyle<a class="headerlink" href="#xyzstyle" title="永久链接至标题">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>思维<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p><a class="reference external" href="https://github.com/xinetzone/thinking/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/xinetzone/thinking" /></a> <a class="reference external" href="https://github.com/xinetzone/thinking/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/xinetzone/thinking" /></a> <a class="reference external" href="https://github.com/xinetzone/thinking/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/xinetzone/thinking" /></a> <a class="reference external" href="https://github.com/xinetzone/thinking/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/xinetzone/thinking" /></a> <img alt="repo size" src="https://img.shields.io/github/repo-size/xinetzone/thinking.svg" /> <a class="reference external" href="https://github.com/xinetzone/thinking/graphs/contributors"><img alt="contributors" src="https://img.shields.io/github/contributors/xinetzone/thinking.svg" /></a> <a class="reference external" href="https://github.com/xinetzone/thinking/watchers"><img alt="watcher" src="https://img.shields.io/github/watchers/xinetzone/thinking.svg" /></a></p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="config.html">Sphinx 配置</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="config.html#path">Path 设置</a></li>
-<li class="toctree-l2"><a class="reference internal" href="config.html#id1">项目信息</a></li>
-<li class="toctree-l2"><a class="reference internal" href="config.html#id2">通用配置</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="blog.html">优质博客</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other.html">其他</a></li>
 </ul>
 </div>
-<section id="id1">
-<h2>目录和索引<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h2>
+<section id="id2">
+<h2>目录和索引<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">索引</span></a></p></li>
 <li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">模块索引</span></a></p></li>
@@ -186,10 +207,10 @@
               
               <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="config.html" title="下一页 页">
+    <a class='right-next' id="next-link" href="blog.html" title="下一页 页">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">下一页</p>
-        <p class="prev-next-title">Sphinx 配置</p>
+        <p class="prev-next-title">优质博客</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
@@ -213,7 +234,7 @@
     
     <div class="footer-item">
       <p class="last-updated">
-最后更新于 2022-03-14, 06:39:42.<br>
+最后更新于 2022-03-14, 07:34:32.<br>
 </p>
     </div>
     
