@@ -4,7 +4,8 @@
 ```{toctree}
 :maxdepth: 2
 
-config
+blog
+other
 ```
 
 ## 目录和索引
