@@ -4,7 +4,7 @@
 ```{toctree}
 :maxdepth: 2
 
-blog
+chaos/index
 other
 ```
 
