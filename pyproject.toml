@@ -6,7 +6,7 @@ requires = ["flit_core >=3.4,<4"]
 authors = [{name = "xinetzone", email = "735613050@qq.com"}]
 dynamic = ["version", "description"]
 license = {file = "LICENSE"}
-name = "xyzstyle"
+name = "thinking"
 readme = "README.md"
 requires-python = ">=3.8"
 
@@ -29,7 +29,7 @@ classifiers = [
 ]
 
 [project.urls]
-Home = "https://github.com/xinetzone/xyzstyle"
+Home = "https://github.com/xinetzone/thinking"
 
 [project.optional-dependencies]
 doc = [
@@ -44,20 +44,20 @@ doc = [
 coverage = [
   "pytest-cov",
   "codecov",
-  "xyzstyle[test]",
+  "thinking[test]",
 ]
 dev = [
   "pyyaml",
   "pre-commit",
-  "xyzstyle[coverage]",
+  "thinking[coverage]",
 ]
 test = [
   "pytest",
-  "xyzstyle[doc]",
+  "thinking[doc]",
 ]
 
 [project.entry-points]
-"sphinx.html_themes" = {xyzstyle = "xyzstyle"}
+"sphinx.html_themes" = {thinking = "thinking"}
 
 [tool.flit.sdist]
 # include = ["docs/"]

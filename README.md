@@ -1,1 +1,3 @@
-# xyzstyle
+# 思维
+
+[![GitHub issues](https://img.shields.io/github/issues/xinetzone/thinking)](https://github.com/xinetzone/thinking/issues) [![GitHub forks](https://img.shields.io/github/forks/xinetzone/thinking)](https://github.com/xinetzone/thinking/network) [![GitHub stars](https://img.shields.io/github/stars/xinetzone/thinking)](https://github.com/xinetzone/thinking/stargazers) [![GitHub license](https://img.shields.io/github/license/xinetzone/thinking)](https://github.com/xinetzone/thinking/blob/main/LICENSE) ![repo size](https://img.shields.io/github/repo-size/xinetzone/thinking.svg) [![contributors](https://img.shields.io/github/contributors/xinetzone/thinking.svg)](https://github.com/xinetzone/thinking/graphs/contributors) [![watcher](https://img.shields.io/github/watchers/xinetzone/thinking.svg)](https://github.com/xinetzone/thinking/watchers) 
