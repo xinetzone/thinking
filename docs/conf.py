@@ -1,20 +1,3 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Path setup --------------------------------------------------------------
-import sys
-from pathlib import Path
-
-if sys.platform == 'win32':
-    import asyncio
-    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-
-ROOT = Path(__file__).parent.absolute()
-sys.path.extend([str(ROOT)])
-
 # -- Project information -----------------------------------------------------
 
 project = 'thinking'
@@ -38,6 +21,7 @@ extensions = [
     'sphinx.ext.viewcode',
     # 'sphinx.ext.autosectionlabel',
     'sphinx.ext.napoleon',
+    'sphinxcontrib.bibtex',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -145,3 +129,5 @@ html_context = {
     "github_version": "main",
     "doc_path": "docs",
 }
+
+bibtex_bibfiles = ['refs.bib']
