@@ -6,4 +6,5 @@
 
 ## 深度学习
 
-Chris Bishop 的优秀教科书 {cite}`Bishop.2006`
+- Chris Bishop 的优秀教科书：{cite}`Bishop.2006`
+- 深度学习：{cite}`Goodfellow.Bengio.Courville.2016`
